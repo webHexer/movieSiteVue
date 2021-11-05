@@ -15,12 +15,7 @@ body {
   color: $gray;
   font-family: "Roboto", sans-serif;
   line-height: 1.3;
-  // overflow-x: hidden;
-
-  // ::selection {
-  //   color: $white;
-  //   background-color: $darkGray;
-  // }
+  position: relative;
 
   &.no-scroll {
     overflow: hidden;

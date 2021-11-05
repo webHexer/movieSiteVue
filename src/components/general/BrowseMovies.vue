@@ -12,7 +12,7 @@
         :key="index"
         class="browse-movies__product"
       >
-        <router-link :to="'/browseCategory/' + type">
+        <router-link to="/">
           <img :src="data.imgLink" :alt="type" />
         </router-link>
       </div>

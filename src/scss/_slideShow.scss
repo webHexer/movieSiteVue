@@ -25,7 +25,6 @@
 
     div {
       display: flex;
-      flex-wrap: wrap;
       cursor: pointer;
     }
 
@@ -48,7 +47,7 @@
     }
 
     @include breakpoint-up(31.25em) {
-      height: 25em;
+      height: 24em;
     }
   }
 
